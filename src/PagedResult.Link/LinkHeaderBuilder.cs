@@ -10,7 +10,7 @@ namespace PagedResult.Link
     /// Generate HTTP Link Headers that points to pages from a <see cref="PagedResult{T}"/>
     /// </summary>
     /// <remarks>
-    /// Use to send pagination links in response to a client by adding a standard HTTP Link Header (RFC 5988). 
+    /// Use to send pagination links in response to a client by adding a standard HTTP Link Header [RFC 5988](https://tools.ietf.org/html/rfc5988)
     /// 
     /// The technique is similar to Github method of [Traversing with Pagination](https://developer.github.com/guides/traversing-with-pagination/)
     /// 
